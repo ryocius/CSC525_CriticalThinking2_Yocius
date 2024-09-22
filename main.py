@@ -14,7 +14,7 @@ def takeInput(text, min = 0, max = 1000):
         else:
             raise ValueError()
     except:
-        print(f"Enter an integer value between {min} and {max}")
+        print(f"Enter an float value between {min} and {max}")
         takeInput()
 
 
