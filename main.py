@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score
 
 def takeInput(text, min = 0, max = 1000):
     try:
-        inValue = int(input(text))
+        inValue = float(input(text))
         if min <= inValue <= max:
             return inValue
         else:
